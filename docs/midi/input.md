@@ -12,6 +12,7 @@ The following opcodes can receive MIDI information:
 * [midicontinue](../opcodes/midicontinue.md) reports MIDI Continue messages.
 * [midiclockin](../opcodes/midiclockin.md) reports incoming MIDI clock pulses.
 * Incoming MIDI clock frequency in Hz is available through [midiclockfreq](../opcodes/midiclockfreq.md).
+* [midisongpos](../opcodes/midisongpos.md) reports MIDI Song Position Pointer messages.
 * Generic MIDI input: [midiin](../opcodes/midiin.md).
 
 [massign](../opcodes/massign.md) can be used to specify the csound instrument to be triggered by a particular MIDI channel. [pgmassign](../opcodes/pgmassign.md) can be use to assign a csound instrument to a specific MIDI program.

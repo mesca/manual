@@ -7,3 +7,5 @@
 Opcodes for System Realtime MIDI messages are: [mclock](../opcodes/mclock.md) and [mrtmsg](../opcodes/mrtmsg.md).
 
 Use [midistart](../opcodes/midistart.md) to detect incoming MIDI Start messages.
+
+[midisongpos](../opcodes/midisongpos.md) reports incoming Song Position Pointer messages, where a sequencer moved its playhead. Song Position Pointer is a System Common message, which a sequencer sends with its transport.
